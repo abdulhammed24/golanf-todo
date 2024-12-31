@@ -1,0 +1,45 @@
+# Go binary files
+*.exe
+*.exe~
+*.out
+*.app
+
+# Go test binary, usually created when running `go test`
+*.test
+
+# Dependency directories
+vendor/
+
+# Go workspace files
+Gopkg.lock
+Gopkg.toml
+
+# Go module files (if you're using Go modules)
+go.sum
+go.mod
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*~
+
+# MacOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
+ehthumbs.db
+
+# Log files
+*.log
+
+# Build directories
+build/
+bin/
+
+# Coverage report files
+coverage.out
+
+# Environment variable files
+.env
